@@ -126,10 +126,10 @@ const mike = {
 
 <br/>
 
-<!--  ◈  ARSENAL  ◈  -->
+<!--  ◈  MSTACK  ◈  -->
 
 <div align="center">
-  <img src="https://img.shields.io/badge/-%E2%97%88%20ARSENAL%20%E2%97%88-059669?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/-%E2%97%88%20MSTACK%20%E2%97%88-059669?style=for-the-badge&logoColor=white" />
 </div>
 
 <br/>
