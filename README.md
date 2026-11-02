@@ -2,7 +2,7 @@
 
 # mikewithoutthemechanics
 
-<svg width="740" height="160" viewBox="0 0 740 160" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="hero-title">
+<svg width="780" height="180" viewBox="0 0 780 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="hero-title">
   <title id="hero-title">mikewithoutthemechanics</title>
   <defs>
     <linearGradient id="heroGrad" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -11,29 +11,44 @@
       <stop offset="65%" stop-color="#AEB9C0"/>
       <stop offset="100%" stop-color="#FFFFFF"/>
     </linearGradient>
-    <filter id="heroGlow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="6" result="blur"/>
+    <radialGradient id="orbGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF5A2D" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#FF5A2D" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
   </defs>
-  <text x="50%" y="52%" dominant-baseline="middle" text-anchor="middle"
+  <circle cx="660" cy="55" r="52" fill="url(#orbGrad)">
+    <animate attributeName="r" values="45;58;45" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.25;0.55;0.25" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="160" cy="120" r="36" fill="url(#orbGrad)">
+    <animate attributeName="r" values="30;42;30" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.15;0.4;0.15" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <path d="M40 150 Q190 150 190 100 T340 100 T490 100 T640 100 T740 100" fill="none" stroke="#AEB9C0" stroke-width="1" stroke-dasharray="4 4" opacity="0.3"/>
+  <text x="50%" y="62%" dominant-baseline="middle" text-anchor="middle"
         font-family="'Space Grotesk','Inter',system-ui,sans-serif"
-        font-weight="800" font-size="62" letter-spacing="-0.04em"
-        fill="url(#heroGrad)" filter="url(#heroGlow)">
+        font-weight="800" font-size="68" letter-spacing="-0.045em"
+        fill="url(#heroGrad)" filter="url(#glow)">
     mikewithoutthemechanics
   </text>
-  <text x="50%" y="90%" dominant-baseline="middle" text-anchor="middle"
+  <text x="50%" y="96%" dominant-baseline="middle" text-anchor="middle"
         font-family="'Inter',system-ui,sans-serif"
-        font-weight="400" font-size="19" letter-spacing="0.05em"
+        font-weight="400" font-size="21" letter-spacing="0.07em"
         fill="#AEB9C0" text-transform="uppercase">
     On-site AI Engineering · KwaZulu-Natal, South Africa · Agentcy
   </text>
 </svg>
 
 </div>
+
+---
 
 **Michael Graeme Kidd** — Managing Partner & Chief AI Architect, [Agentcy](https://agentcy.co.za)  
 Workflow automation, custom internal tools, and AI integrations that fit the actual job. Based in **KwaZulu-Natal, South Africa** — deployed anywhere the work is.
@@ -42,9 +57,9 @@ Workflow automation, custom internal tools, and AI integrations that fit the act
 
 <div align="center">
 
-### Focus
+### What I ship
 
-<svg width="740" height="44" viewBox="0 0 740 44" xmlns="http://www.w3.org/2000/svg">
+<svg width="780" height="48" viewBox="0 0 780 48" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="tickGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#FF5A2D"/>
@@ -52,9 +67,9 @@ Workflow automation, custom internal tools, and AI integrations that fit the act
       <stop offset="100%" stop-color="#68C6A8"/>
     </linearGradient>
   </defs>
-  <text x="740" y="32" font-family="'Space Grotesk','Inter',sans-serif" font-weight="600" font-size="16" fill="url(#tickGrad)">
-    <animate attributeName="x" from="740" to="-600" dur="14s" repeatCount="indefinite"/>
-    🇿🇦 On-site AI engineering · ⚡ Workflow automation · 🛠️ Custom internal tools · 🔗 AI integrations · CRM · WhatsApp · Finance
+  <text x="780" y="35" font-family="'Space Grotesk','Inter',sans-serif" font-weight="600" font-size="17" fill="url(#tickGrad)">
+    <animate attributeName="x" from="780" to="-640" dur="12s" repeatCount="indefinite"/>
+    🇿🇦 On-site AI engineering · ⚡ Workflow automation · 🛠️ Custom internal tools · 🔗 AI integrations · CRM · WhatsApp · Finance · Deployed anywhere the work is
   </text>
 </svg>
 
@@ -75,63 +90,79 @@ Workflow automation, custom internal tools, and AI integrations that fit the act
 
 <div align="center">
 
+### Before → After
+
+<table>
+  <tr>
+    <td align="center" bgcolor="#0B0E0D" color="#AEB9C0"><b>Before</b></td>
+    <td align="center" bgcolor="#EEF2F4" color="#0B0E0D"><b>After</b></td>
+  </tr>
+  <tr>
+    <td align="center">Manual ops · CRM silos · WhatsApp chaos · Finance spreadsheets · No automation</td>
+    <td align="center">On-site AI engineering · Connected stack · Automated workflows · Custom internal tools · Deployed anywhere</td>
+  </tr>
+</table>
+
+</div>
+
+---
+
+<div align="center">
+
 ### Tech stack
 
 <table>
   <tr>
-    <td align="center"><img src="https://skillicons.dev/icons?i=nextjs,typescript,tailwind,supabase,vercel,github,n8n,whatsapp" width="340" alt="Tech stack" /></td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=nextjs,typescript,tailwind,supabase,vercel,github,n8n,whatsapp" width="380" alt="Tech stack" /></td>
   </tr>
 </table>
 
-<table>
-  <tr>
-    <td align="center" bgcolor="#EEF2F4"><b>AI engineering</b><br/>LLM · RAG · Agents</td>
-    <td align="center" bgcolor="#0B0E0D"><b>Automation</b><br/>n8n · cron · Webhooks · Twenty</td>
-    <td align="center" bgcolor="#EEF2F4"><b>Integrations</b><br/>WhatsApp · CRM · Finance · APIs</td>
-    <td align="center" bgcolor="#0B0E0D"><b>Internal tools</b><br/>Next.js · TypeScript · Supabase · Tailwind</td>
-    <td align="center" bgcolor="#EEF2F4"><b>Deployment</b><br/>Vercel · GitHub · CI/CD · On-site</td>
-  </tr>
-</table>
-
-<svg width="740" height="100" viewBox="0 0 740 100" xmlns="http://www.w3.org/2000/svg">
+<svg width="780" height="115" viewBox="0 0 780 115" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#FF5A2D"/>
       <stop offset="100%" stop-color="#AEB9C0"/>
     </linearGradient>
+    <linearGradient id="sparkGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF5A2D"/>
+      <stop offset="100%" stop-color="#AEB9C0"/>
+    </linearGradient>
   </defs>
-  <g transform="translate(60,20)">
-    <circle cx="40" cy="40" r="36" fill="none" stroke="#EEF2F4" stroke-width="4" opacity="0.2"/>
-    <circle cx="40" cy="40" r="36" fill="none" stroke="url(#ringGrad)" stroke-width="4" stroke-dasharray="226" stroke-dashoffset="56">
-      <animate attributeName="stroke-dashoffset" values="226;56" dur="1.5s" repeatCount="indefinite"/>
+  <g transform="translate(50,20)">
+    <circle cx="44" cy="44" r="40" fill="none" stroke="#EEF2F4" stroke-width="5" opacity="0.15"/>
+    <circle cx="44" cy="44" r="40" fill="none" stroke="url(#ringGrad)" stroke-width="5" stroke-dasharray="251" stroke-dashoffset="63">
+      <animate attributeName="stroke-dashoffset" values="251;63" dur="1.7s" repeatCount="indefinite"/>
     </circle>
-    <text x="40" y="44" text-anchor="middle" font-family="'Inter',sans-serif" font-weight="700" font-size="14" fill="#0B0E0D">AI</text>
-    <text x="40" y="62" text-anchor="middle" font-family="'Inter',sans-serif" font-weight="400" font-size="10" fill="#AEB9C0">Engineering</text>
+    <text x="44" y="49" text-anchor="middle" font-family="'Inter',sans-serif" font-weight="800" font-size="16" fill="#0B0E0D">AI</text>
+    <text x="44" y="69" text-anchor="middle" font-family="'Inter',sans-serif" font-weight="500" font-size="10" fill="#AEB9C0">Engineering</text>
   </g>
-  <g transform="translate(240,20)">
-    <circle cx="40" cy="40" r="36" fill="none" stroke="#EEF2F4" stroke-width="4" opacity="0.2"/>
-    <circle cx="40" cy="40" r="36" fill="none" stroke="url(#ringGrad)" stroke-width="4" stroke-dasharray="226" stroke-dashoffset="34">
-      <animate attributeName="stroke-dashoffset" values="226;34" dur="1.8s" repeatCount="indefinite"/>
+  <g transform="translate(270,20)">
+    <circle cx="44" cy="44" r="40" fill="none" stroke="#EEF2F4" stroke-width="5" opacity="0.15"/>
+    <circle cx="44" cy="44" r="40" fill="none" stroke="url(#ringGrad)" stroke-width="5" stroke-dasharray="251" stroke-dashoffset="38">
+      <animate attributeName="stroke-dashoffset" values="251;38" dur="2.0s" repeatCount="indefinite"/>
     </circle>
-    <text x="40" y="44" text-anchor="middle" font-family="'Inter',sans-serif" font-weight="700" font-size="14" fill="#0B0E0D">92%</text>
-    <text x="40" y="62" text-anchor="middle" font-family="'Inter',sans-serif" font-weight="400" font-size="10" fill="#AEB9C0">Automation</text>
+    <text x="44" y="49" text-anchor="middle" font-family="'Inter',sans-serif" font-weight="800" font-size="16" fill="#0B0E0D">92%</text>
+    <text x="44" y="69" text-anchor="middle" font-family="'Inter',sans-serif" font-weight="500" font-size="10" fill="#AEB9C0">Automation</text>
   </g>
-  <g transform="translate(420,20)">
-    <circle cx="40" cy="40" r="36" fill="none" stroke="#EEF2F4" stroke-width="4" opacity="0.2"/>
-    <circle cx="40" cy="40" r="36" fill="none" stroke="url(#ringGrad)" stroke-width="4" stroke-dasharray="226" stroke-dashoffset="68">
-      <animate attributeName="stroke-dashoffset" values="226;68" dur="2s" repeatCount="indefinite"/>
+  <g transform="translate(490,20)">
+    <circle cx="44" cy="44" r="40" fill="none" stroke="#EEF2F4" stroke-width="5" opacity="0.15"/>
+    <circle cx="44" cy="44" r="40" fill="none" stroke="url(#ringGrad)" stroke-width="5" stroke-dasharray="251" stroke-dashoffset="76">
+      <animate attributeName="stroke-dashoffset" values="251;76" dur="2.2s" repeatCount="indefinite"/>
     </circle>
-    <text x="40" y="44" text-anchor="middle" font-family="'Inter',sans-serif" font-weight="700" font-size="14" fill="#0B0E0D">88%</text>
-    <text x="40" y="62" text-anchor="middle" font-family="'Inter',sans-serif" font-weight="400" font-size="10" fill="#AEB9C0">Integrations</text>
+    <text x="44" y="49" text-anchor="middle" font-family="'Inter',sans-serif" font-weight="800" font-size="16" fill="#0B0E0D">88%</text>
+    <text x="44" y="69" text-anchor="middle" font-family="'Inter',sans-serif" font-weight="500" font-size="10" fill="#AEB9C0">Integrations</text>
   </g>
-  <g transform="translate(600,20)">
-    <circle cx="40" cy="40" r="36" fill="none" stroke="#EEF2F4" stroke-width="4" opacity="0.2"/>
-    <circle cx="40" cy="40" r="36" fill="none" stroke="url(#ringGrad)" stroke-width="4" stroke-dasharray="226" stroke-dashoffset="45">
-      <animate attributeName="stroke-dashoffset" values="226;45" dur="1.6s" repeatCount="indefinite"/>
+  <g transform="translate(710,20)">
+    <circle cx="44" cy="44" r="40" fill="none" stroke="#EEF2F4" stroke-width="5" opacity="0.15"/>
+    <circle cx="44" cy="44" r="40" fill="none" stroke="url(#ringGrad)" stroke-width="5" stroke-dasharray="251" stroke-dashoffset="50">
+      <animate attributeName="stroke-dashoffset" values="251;50" dur="1.8s" repeatCount="indefinite"/>
     </circle>
-    <text x="40" y="44" text-anchor="middle" font-family="'Inter',sans-serif" font-weight="700" font-size="14" fill="#0B0E0D">95%</text>
-    <text x="40" y="62" text-anchor="middle" font-family="'Inter',sans-serif" font-weight="400" font-size="10" fill="#AEB9C0">Internal tools</text>
+    <text x="44" y="49" text-anchor="middle" font-family="'Inter',sans-serif" font-weight="800" font-size="16" fill="#0B0E0D">95%</text>
+    <text x="44" y="69" text-anchor="middle" font-family="'Inter',sans-serif" font-weight="500" font-size="10" fill="#AEB9C0">Internal tools</text>
   </g>
+  <path d="M50 95 Q180 75 310 95 T540 75 T770 95" fill="none" stroke="url(#sparkGrad)" stroke-width="3" opacity="0.9">
+    <animate attributeName="stroke-dashoffset" values="1000;0" dur="3s" repeatCount="indefinite"/>
+  </path>
 </svg>
 
 </div>
