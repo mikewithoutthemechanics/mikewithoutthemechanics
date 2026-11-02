@@ -1,85 +1,103 @@
+<div align="center">
+
 # mikewithoutthemechanics
 
-On-site AI Engineering · KwaZulu-Natal, South Africa
+<img src="https://img.shields.io/badge/On--site%20AI%20Engineering-KwaZulu--Natal%2C%20ZA-0B0E0D?style=for-the-badge&logo=none" alt="On-site AI Engineering" />
+<img src="https://img.shields.io/badge/Managing%20Partner%20%26%20Chief%20AI%20Architect-Agentcy-FF5A2D?style=for-the-badge" alt="Role" />
+
+</div>
 
 **Michael Graeme Kidd** — Managing Partner & Chief AI Architect, [Agentcy](https://agentcy.co.za)  
-Workflow automation, custom internal tools, and AI integrations that fit the actual job. Based in KwaZulu-Natal, South Africa; deployed anywhere the work is.
-
-[Book an on-site engagement](#contact) · [Explore capabilities](#capabilities)
-
----
-
-## Focus
-
-- On-site AI engineering for South African businesses
-- Workflow automation that removes operational drag
-- Custom internal tools that actually fit the job
-- AI integrations into existing systems — CRM, WhatsApp, finance
-
----
-
-## Tech stack
-
-Automation · AI integrations · Internal tools · CRM · WhatsApp · finance systems
-
----
-
-## Capabilities
-
-### On-site AI engineering
-Bespoke AI engineering delivered on-site for South African businesses.
-
-### Workflow automation
-Removes operational drag from recurring processes.
-
-### Custom internal tools
-Tools built to fit the actual job, not adapted around software.
-
-### AI integrations
-CRM, WhatsApp, and finance system integrations into existing stacks.
-
----
-
-## Selected projects
-
-| Project | Role | Stack |
-|---|---|---|
-| Punctual Plumbers — marketing website | Design & build | Next.js, Tailwind |
-| Punctual Plumbers — Plumbing-JMS | Job management system | Next.js, Supabase |
-| Agentcy — agentcy.co.za | Managing Partner & Chief AI Architect | Next.js, TypeScript |
-
----
-
-## Activity
-
-GitHub contribution graph and repository stats render natively when this file lives in a repo root as `README.md`.
-
----
-
-## Contact
-
-Start a project — on-site engagements in KwaZulu-Natal, remote anywhere.
+Workflow automation, custom internal tools, and AI integrations that fit the actual job. Based in **KwaZulu-Natal, South Africa** — deployed anywhere the work is.
 
 [Book an on-site engagement](#contact)
 
 ---
 
-## Design tokens (cool silver neutral theme)
+## Focus
 
-| Token | Value | Use |
-|---|---|---|
-| `--ink` | `#0B0E0D` | Dark background |
-| `--ink-2` / `--ink-3` | `#121817` / `#18211E` | Elevated surfaces |
-| `--paper` | `#EEF2F4` | Cool silver surface (replaces warm cream) |
-| `--paper-2` | `#E4E9ED` | Secondary surface |
-| `--ember` | `#FF5A2D` | Single brand accent |
-| `--forest` | `#16302A` | Deep green |
-| `--mint` | `#68C6A8` | Mint accent |
-| `--radius-lg` | `24px` | Card radius |
-| `--maxw` | `1220px` | Content width |
-
-Neutrals are cool silver/grey — no warm cream or sand tints. Ember stays as the only warm accent.
+- 🇿🇦 **On-site AI engineering** for South African businesses
+- ⚡ **Workflow automation** that removes operational drag
+- 🛠️ **Custom internal tools** that actually fit the job
+- 🔗 **AI integrations** into existing systems — CRM, WhatsApp, finance
 
 ---
 
-> Converted from the source design paste for GitHub README. Full faithful render: [`mikewithoutthemechanics.html`](mikewithoutthemechanics.html) — open locally for visual verification before any push.
+### Tech stack
+
+<table>
+  <tr>
+    <td><b>AI engineering</b></td>
+    <td><b>Automation</b></td>
+    <td><b>Integrations</b></td>
+    <td><b>Internal tools</b></td>
+    <td><b>Deployment</b></td>
+  </tr>
+  <tr>
+    <td>LLM apps · RAG · Agents</td>
+    <td>n8n · cron · Webhooks · Twenty</td>
+    <td>WhatsApp · CRM · Finance · APIs</td>
+    <td>Next.js · TypeScript · Supabase · Tailwind</td>
+    <td>Vercel · GitHub · CI/CD · On-site</td>
+  </tr>
+</table>
+
+
+
+## Selected projects
+
+<table>
+  <tr>
+    <th>Project</th>
+    <th>Role</th>
+    <th>Stack</th>
+  </tr>
+  <tr>
+    <td><b>Punctual Plumbers — marketing site</b></td>
+    <td>Design & build</td>
+    <td>Next.js · Tailwind</td>
+  </tr>
+  <tr>
+    <td><b>Plumbing-JMS</b></td>
+    <td>Job management system</td>
+    <td>Next.js · Supabase</td>
+  </tr>
+  <tr>
+    <td><b>Agentcy — agentcy.co.za</b></td>
+    <td>Managing Partner & Chief AI Architect</td>
+    <td>Next.js · TypeScript</td>
+  </tr>
+</table>
+
+
+
+## Contact
+
+**Start a project** — on-site engagements in KwaZulu-Natal, remote anywhere.
+
+[hello@agentcy.co.za](mailto:hello@agentcy.co.za) · [Book an on-site engagement](#contact)
+
+<div align="center">
+
+### Open to
+
+<img src="https://img.shields.io/badge/AI%20Consulting-0B0E0D?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Fractional%20CTO-FF5A2D?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Product%20Builds-0B0E0D?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Automation%20Projects-FF5A2D?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Technical%20Co--founder-0B0E0D?style=for-the-badge" />
+
+</div>
+
+---
+
+### Design tokens
+
+Cool silver neutrals. Ember accent only.
+
+| Token | Value |
+|-------|-------|
+| `--ink` | `#0B0E0D` |
+| `--paper` | `#EEF2F4` |
+| `--ember` | `#FF5A2D` |
+| `--forest` | `#16302A` |
